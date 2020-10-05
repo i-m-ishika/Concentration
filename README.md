@@ -1,9 +1,16 @@
 ### Concentration - iOS App
 Play the popular concentration game : there are 8 pairs of cards, with 8 pairs of images - all face down. Pick cards and if it's a match - BAM! If it isn't, well, keep trying! Reset to start a new game. And remember, lesser the number of flips, better you are at *"Concentration"*.
-<table>
-  <thead><th>Initial screen</th>
-    <th>After 4 matches (i.e. 2 pairs)</th></thead>
- <tbody><tr>
-<td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-02%20at%207.18.14%20PM.png" alt="alt text" width="200px" height="350px"/></td>
-<td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-02%20at%207.17.53%20PM.png" alt="alt text" width="200px" height="350px"/></td>
-  </tr></tbody></table>
+
+On an iPhone, the game feels like:
+<table><thead>
+  <th>Choose a theme </th>
+  <th>How it looks initially</th>
+  <th>After a couple of moves (and hopefully, matches)
+  </thead><tbody>
+  <tr><td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.50.46%20PM.png" alt="alt text" width="200px" height="350px"/></td></tr>
+  <tr><td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.51.55%20PM.png" alt="alt text" width="200px" height="350px"/></td></tr>
+  <tr><td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.51.13%20PM.png" alt="alt text" width="200px" height="350px"/></td></tr>
+  </tbody></table>
+  
+  
+  
