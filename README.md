@@ -13,6 +13,6 @@ On an iPhone, the game feels like:
   </tbody></table>
   
 How it looks on an iPad :
-<table><tr><td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.53.49%20PM.png" alt="alt text" width="200px" height="350px"/></td></tr></table>
+<table><tr><td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.53.49%20PM.png" alt="alt text" width="350px" height="200px"/></td></tr></table>
   
   
