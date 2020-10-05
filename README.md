@@ -7,10 +7,12 @@ On an iPhone, the game feels like:
   <th>How it looks initially</th>
   <th>After a couple of moves (and hopefully, matches)
   </thead><tbody>
-  <tr><td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.50.46%20PM.png" alt="alt text" width="200px" height="350px"/></td></tr>
-  <tr><td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.51.55%20PM.png" alt="alt text" width="200px" height="350px"/></td></tr>
-  <tr><td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.51.13%20PM.png" alt="alt text" width="200px" height="350px"/></td></tr>
+  <tr><td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.50.46%20PM.png" alt="alt text" width="200px" height="350px"/></td>
+ <td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.51.55%20PM.png" alt="alt text" width="200px" height="350px"/></td>
+  <td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.51.13%20PM.png" alt="alt text" width="200px" height="350px"/></td></tr>
   </tbody></table>
   
+How it looks on an iPad :
+<table><tr><td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.53.49%20PM.png" alt="alt text" width="200px" height="350px"/></td></tr></table>
   
   
