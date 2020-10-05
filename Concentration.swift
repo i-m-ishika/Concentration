@@ -7,43 +7,67 @@
 //
 
 import Foundation
-class Concentration{
-    var cards = Array<Card>() //[Card]()
-    var indexOfOneAndOnlyFaceUpCard: Int?
-    func chooseCard(at index: Int){
+struct Concentration{
+    private(set) var cards = Array<Card>() //[Card]()
+    private var indexOfOneAndOnlyFaceUpCard: Int?{
+        get{
+            return cards.indices.filter( {cards[$0].isFaceUp} ).oneAndOnly
+//            let faceUpCardIndices = cards.indices.filter({ cards[$0].isFaceUp }) 
+//            return faceUpCardIndices.count == 1 ? faceUpCardIndices.first : nil
+
+        }
+        set(newVal){
+            for index in cards.indices{
+                cards[index].isFaceUp = (index == newVal)
+            }
+           
+        }
+    }
+    mutating func chooseCard(at index: Int){
+        assert(cards.indices.contains(index),"Concentration.chooseCard(at index: \(index)) : chosen index not in the cards")
         if !cards[index].isMatched{
             if let matchIndex = indexOfOneAndOnlyFaceUpCard, matchIndex != index{
                     //one card up
-                if cards[index].identifier == cards[matchIndex].identifier{
+                if cards[index] == cards[matchIndex]{
                     cards[index].isMatched = true
                     cards[matchIndex].isMatched = true
                 }
                 cards[index].isFaceUp = true
-                indexOfOneAndOnlyFaceUpCard = nil
+             
                 
             }else{
                 //two or no cards face up
-                for cardIndex in cards.indices{
-                    cards[cardIndex].isFaceUp = false
-                }
-                cards[index].isFaceUp = true
                 indexOfOneAndOnlyFaceUpCard = index
             }
             
         }
         
     }
-    func resetGame(){
+    mutating func resetGame(){
         for index in cards.indices{
             cards[index].isFaceUp = false
             cards[index].isMatched = false
         }
     }
+    func increaseFlipCount(for index: Int, flipCount: Int) -> Int {
+        if cards[index].isFaceUp || cards[index].isMatched{
+            return flipCount
+        }
+        return flipCount + 1
+    }
     init(numberOfPairsOfCards: Int){
+        assert(numberOfPairsOfCards>0, "Concentration.init(numberOfPairsOfCards: Int): minimum 1 pair of cards required")
         for _ in 0..<numberOfPairsOfCards{
                 let card = Card()
                 cards += [card, card]
         }
         cards.shuffle()
+    }
+    
+}
+
+extension Collection{
+    var oneAndOnly: Element? {
+        return count == 1 ? first : nil
     }
 }
