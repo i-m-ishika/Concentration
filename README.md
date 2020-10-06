@@ -12,7 +12,7 @@ On an iPhone, the game feels like:
   <td><img src="https://github.com/i-m-ishika/Concentration/blob/main/Screenshot%202020-10-05%20at%206.51.13%20PM.png" alt="alt text" width="200px" height="400px"/></td></tr>
   </tbody></table>
   
-What if auto-rotation is on?! Don't worry- the app won't look weird, see for yourself -
+What if auto-rotation is on?! Don't worry, the app won't look weird, see for yourself -
 <table>
   <th>Rotated (iPhone XR) </th>
   <tbody><tr><td>
